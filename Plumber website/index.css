@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.financing-banner {
+    background: black;
+    text-align: center;
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar a{
+   color: white;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+
+.navbar li {
+    float: left;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.plumber1 img{
+    width: 600px;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
