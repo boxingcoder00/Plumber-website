@@ -42,6 +42,19 @@
     float: left;
 }
 
+.left {
+  display: flex;
+  justify-content: left;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.left-paragraph {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
 .header1 {
   display: flex;
   justify-content: center;
@@ -92,6 +105,32 @@ h1 {
 .plumber1 img{
     width: 600px;
 }
+
+.right-paragraph {
+  justify-content: right;
+  display: flex;
+}
+
+.map {
+  justify-content: right;
+  display: flex;
+}
+
+.map img{
+   width: 350px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 main{
     margin-left: 20px;
