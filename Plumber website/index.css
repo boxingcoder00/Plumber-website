@@ -121,14 +121,11 @@ h1 {
 }
 
 .column {
-    float: left;
-    width: 50%;
+    flex: 50%;
   }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
 }
 
 
@@ -219,7 +216,7 @@ main{
 
 .container {
   padding: 2rem;
-  margin-top: 30%;
+  margin-top: 3%;
 }
 
 .slider-wrapper {
@@ -264,5 +261,16 @@ main{
 
 .slider-nav a:hover {
   opacity: 1;
+}
+
+.header3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+header a {
+  display:inline-block; 
+  width:60px;
 }
 
